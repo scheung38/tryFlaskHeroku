@@ -6,7 +6,7 @@ heroku = Heroku(app)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'Hello World this is tryFlaskHeroku!'
 
 
 if __name__ == '__main__':
